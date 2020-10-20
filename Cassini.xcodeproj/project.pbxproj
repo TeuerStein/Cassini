@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B32B875D253F16E000E2086A /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32B875C253F16E000E2086A /* ImageViewController.swift */; };
 		B3605F5A253E1BEF00B5D5A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3605F59253E1BEF00B5D5A6 /* AppDelegate.swift */; };
 		B3605F5C253E1BEF00B5D5A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3605F5B253E1BEF00B5D5A6 /* SceneDelegate.swift */; };
 		B3605F61253E1BEF00B5D5A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3605F5F253E1BEF00B5D5A6 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B32B875C253F16E000E2086A /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		B3605F56253E1BEF00B5D5A6 /* Cassini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cassini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3605F59253E1BEF00B5D5A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3605F5B253E1BEF00B5D5A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,8 +56,9 @@
 		B3605F58253E1BEF00B5D5A6 /* Cassini */ = {
 			isa = PBXGroup;
 			children = (
-				B3605F6E253E1C3100B5D5A6 /* Supporting Files */,
+				B32B875C253F16E000E2086A /* ImageViewController.swift */,
 				B3605F5F253E1BEF00B5D5A6 /* Main.storyboard */,
+				B3605F6E253E1C3100B5D5A6 /* Supporting Files */,
 				B3605F67253E1BF100B5D5A6 /* Info.plist */,
 			);
 			path = Cassini;
@@ -143,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3605F5A253E1BEF00B5D5A6 /* AppDelegate.swift in Sources */,
+				B32B875D253F16E000E2086A /* ImageViewController.swift in Sources */,
 				B3605F5C253E1BEF00B5D5A6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
