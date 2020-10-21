@@ -38,7 +38,7 @@ class ImageViewController: UIViewController {
     
     override func viewDidLoad() {
         if imageURL == nil {
-            
+            imageURL = DemoURLs.wroclaw
         }
     }
     

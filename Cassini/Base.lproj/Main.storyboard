@@ -16,17 +16,30 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hKS-RC-4yv">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" placeholderIntrinsicWidth="375" placeholderIntrinsicHeight="812" translatesAutoresizingMaskIntoConstraints="NO" id="ELw-Za-9nl">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                            </imageView>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hKS-RC-4yv">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="hKS-RC-4yv" firstAttribute="leading" secondItem="ELw-Za-9nl" secondAttribute="leading" id="Con-QL-Sd0"/>
+                                    <constraint firstItem="hKS-RC-4yv" firstAttribute="top" secondItem="ELw-Za-9nl" secondAttribute="top" id="DsV-ZM-J9E"/>
+                                    <constraint firstItem="hKS-RC-4yv" firstAttribute="trailing" secondItem="ELw-Za-9nl" secondAttribute="trailing" id="ttq-jM-03i"/>
+                                    <constraint firstAttribute="bottom" secondItem="hKS-RC-4yv" secondAttribute="bottom" id="wgm-eQ-id2"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="tvl-AR-WLO"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="bBC-e1-kQD"/>
+                            </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bNe-L1-9j2"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="hKS-RC-4yv" secondAttribute="bottom" id="2se-lR-2yf"/>
-                            <constraint firstItem="hKS-RC-4yv" firstAttribute="leading" secondItem="iQY-8S-dCn" secondAttribute="leading" id="7Pl-Ps-lCc"/>
-                            <constraint firstItem="hKS-RC-4yv" firstAttribute="top" secondItem="iQY-8S-dCn" secondAttribute="top" id="ZY7-P0-lNY"/>
-                            <constraint firstItem="hKS-RC-4yv" firstAttribute="trailing" secondItem="iQY-8S-dCn" secondAttribute="trailing" id="sFV-gV-biE"/>
+                            <constraint firstAttribute="bottom" secondItem="ELw-Za-9nl" secondAttribute="bottom" id="Igx-eW-pcO"/>
+                            <constraint firstItem="ELw-Za-9nl" firstAttribute="trailing" secondItem="iQY-8S-dCn" secondAttribute="trailing" id="X6y-oe-0LX"/>
+                            <constraint firstItem="ELw-Za-9nl" firstAttribute="top" secondItem="iQY-8S-dCn" secondAttribute="top" id="euQ-LY-PHP"/>
+                            <constraint firstItem="ELw-Za-9nl" firstAttribute="leading" secondItem="iQY-8S-dCn" secondAttribute="leading" id="sjY-UW-kF3"/>
                         </constraints>
                     </view>
                     <connections>
